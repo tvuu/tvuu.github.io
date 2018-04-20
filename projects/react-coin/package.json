@@ -1,7 +1,7 @@
 {
   "name": "react-coin",
   "version": "1.0.0",
-  "homepage" : "https://tvuu.github.io/react-coin",
+  "homepage" : "https://tvuu.github.io/projects/react-coin",
   "private": true,
   "devDependencies": {
     "react-scripts": "1.1.0"
