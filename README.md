@@ -1,6 +1,6 @@
 # Summary
 
-I am making a blog hosted by GitHub Pages using a free Bootstrap template.
+I am making a blog hosted by GitHub Pages using a free Bootstrap template. I'm using this blog as a learning experience, and as a place to post projects I have worked on.
 
 
 # [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
