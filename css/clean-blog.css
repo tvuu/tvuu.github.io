@@ -1,6 +1,7 @@
 body {
   font-size: 20px;
-  color: #212529;
+  color: #DC3522;
+  background-color: #333333;
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
@@ -24,25 +25,27 @@ h6 {
 }
 
 a {
-  color: #212529;
+  color: #d10000;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #262626;
 }
 
 blockquote {
   font-style: italic;
-  color: #868e96;
+  color: #d10000;
+  padding: 0px, 50px;
 }
 
 .section-heading {
   font-size: 36px;
   font-weight: 700;
   margin-top: 60px;
+  color: #d10000;
 }
 
 .caption {
@@ -50,6 +53,7 @@ blockquote {
   font-style: italic;
   display: block;
   margin: 0;
+  color: #d10000;
   padding: 10px;
   text-align: center;
   border-bottom-right-radius: 5px;
@@ -57,37 +61,37 @@ blockquote {
 }
 
 ::-moz-selection {
-  color: #fff;
-  background: #0085A1;
+  color: #e83e8c;
+  background: #DC3522;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
-  background: #0085A1;
+  color: #e83e8c;
+  background: #DC3522;
   text-shadow: none;
 }
 
 img::selection {
-  color: #fff;
+  color: #DC3522;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: #fff;
+  color: #DC3522;
   background: transparent;
 }
 
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid #e9ecef;
-  background-color: white;
+  border-bottom: 1px solid #DC3522;
+  background-color: #262626;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
   font-weight: 800;
-  color: #343a40;
+  color: #DC3522;
 }
 
 #mainNav .navbar-toggler {
@@ -95,7 +99,7 @@ img::-moz-selection {
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
-  color: #343a40;
+  color: #DC3522;
 }
 
 #mainNav .navbar-nav > li.nav-item > a {
@@ -103,6 +107,7 @@ img::-moz-selection {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #a82719;
 }
 
 @media only screen and (min-width: 992px) {
@@ -112,17 +117,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
-    color: #fff;
+    color: #DC3522;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(51, 51, 51, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #fff;
+    color: #DC3522;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(51, 51, 51, 0.8);
   }
 }
 
@@ -146,20 +151,20 @@ img::-moz-selection {
     -webkit-transition: -webkit-transform 0.2s;
     -moz-transition: -moz-transform 0.2s;
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #dc3522;
+    background-color: rgba(51, 51, 51, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #212529;
+    color: #DC3522;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #DC3522;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #212529;
+    color: #DC3522;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #DC3522;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -197,7 +202,7 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: #d10000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -261,7 +266,7 @@ header.masthead .post-heading .meta {
 }
 
 header.masthead .post-heading .meta a {
-  color: #fff;
+  color: #DC3522;
 }
 
 @media only screen and (min-width: 768px) {
@@ -274,12 +279,12 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview > a {
-  color: #212529;
+  color: #DC3522;
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #d10000;
 }
 
 .post-preview > a > .post-title {
@@ -302,12 +307,12 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #212529;
+  color: #DC3522;
 }
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #d10000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -321,26 +326,27 @@ header.masthead .post-heading .meta a {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #DC3522;
 }
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   font-size: 1.5em;
   position: relative;
+  color: #d10000;
   z-index: 1;
   padding: 0;
   resize: none;
   border: none;
   border-radius: 0;
-  background: none;
+  background: #868e96;
   box-shadow: none !important;
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
-  color: #868e96;
+  color: #DC3522;
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
@@ -371,15 +377,16 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #DC3522;
 }
 
 form .form-group:first-child .floating-label-form-group {
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #DC3522;
 }
 
 footer {
   padding: 50px 0 65px;
+  color: #DC3522;
 }
 
 footer .list-inline {
@@ -391,6 +398,7 @@ footer .copyright {
   font-size: 14px;
   margin-bottom: 0;
   text-align: center;
+  color: #DC3522;
 }
 
 .btn {
@@ -404,14 +412,14 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #DC3522;
+  border-color: #DC3522;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  color: #333333;
+  background-color: #bb2d1d !important;
+  border-color: #bb2d1d !important;
 }
 
 .btn-lg {

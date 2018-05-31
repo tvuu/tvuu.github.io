@@ -28,7 +28,15 @@
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
-        "jquery": "3.3.1"
+        "gulp": "latest",
+        "gulp-coffee": "latest",
+        "gulp-concat": "latest",
+        "gulp-connect": "latest",
+        "gulp-sass": "latest",
+        "gulp-uglify": "latest",
+        "gulp-util": "latest",
+        "jquery": "3.3.1",
+        "npm": "^6.1.0"
     },
     "devDependencies": {
         "browser-sync": "2.23.6",

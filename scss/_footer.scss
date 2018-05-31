@@ -1,6 +1,7 @@
 // Styling for the footer
 footer {
   padding: 50px 0 65px;
+  color: $red;
   .list-inline {
     margin: 0;
     padding: 0;
@@ -9,5 +10,6 @@ footer {
     font-size: 14px;
     margin-bottom: 0;
     text-align: center;
+    color: $red;
   }
 }

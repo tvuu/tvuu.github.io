@@ -1,11 +1,11 @@
 // Styling for the post page
 .post-preview {
   > a {
-    color: $gray-900;
+    color: $red;
     &:focus,
     &:hover {
       text-decoration: none;
-      color: $primary;
+      color: $rlyRed;
     }
     > .post-title {
       font-size: 30px;
@@ -24,11 +24,11 @@
     color: $gray-600;
     > a {
       text-decoration: none;
-      color: $gray-900;
+      color: $red;
       &:focus,
       &:hover {
         text-decoration: underline;
-        color: $primary;
+        color: $rlyRed;
       }
     }
   }

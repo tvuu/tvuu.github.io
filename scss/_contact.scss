@@ -4,21 +4,22 @@
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid $gray-300;
+  border-bottom: 1px solid $red;
   input,
   textarea {
     font-size: 1.5em;
     position: relative;
+    color: $rlyRed;
     z-index: 1;
     padding: 0;
     resize: none;
     border: none;
     border-radius: 0;
-    background: none;
+    background: $gray-600;
     box-shadow: none !important;
     @include serif-font;
     &::-webkit-input-placeholder {
-      color: $gray-600;
+      color: $red;
       @include serif-font;
     }
   }
@@ -56,5 +57,5 @@
   }
 }
 form .form-group:first-child .floating-label-form-group {
-  border-top: 1px solid $gray-300;
+  border-top: 1px solid $red;
 }
