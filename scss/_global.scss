@@ -1,7 +1,7 @@
 // Global styling for this template
 body {
   font-size: 20px;
-  color: $red;
+  color: $gray-600;
   background-color: $black;
   @include serif-font;
 }
@@ -25,7 +25,7 @@ h6 {
 }
 
 a {
-  color: $rlyRed;
+  color: $red;
   @include transition-all;
   &:focus,
   &:hover {
@@ -43,7 +43,7 @@ blockquote {
   font-size: 36px;
   font-weight: 700;
   margin-top: 60px;
-  color: $rlyRed;
+  color: $red;
 }
 
 .caption {
